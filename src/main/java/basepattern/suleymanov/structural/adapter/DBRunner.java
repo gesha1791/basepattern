@@ -8,7 +8,5 @@ public class DBRunner {
         database.update();
         database.select();
         database.remove();
-
-
     }
 }
