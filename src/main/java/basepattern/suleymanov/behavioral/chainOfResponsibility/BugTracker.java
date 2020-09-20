@@ -1,4 +1,4 @@
-package basepattern.suleymanov.behavioral.chainOfRespopnsibility;
+package basepattern.suleymanov.behavioral.chainOfResponsibility;
 
 public class BugTracker {
     public static void main(String[] args) {

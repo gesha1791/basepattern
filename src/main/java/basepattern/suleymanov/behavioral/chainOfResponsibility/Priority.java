@@ -1,4 +1,4 @@
-package basepattern.suleymanov.behavioral.chainOfRespopnsibility;
+package basepattern.suleymanov.behavioral.chainOfResponsibility;
 
 public class Priority {
     public static final int ROUTINE = 1;

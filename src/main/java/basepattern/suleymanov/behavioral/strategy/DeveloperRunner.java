@@ -1,13 +1,9 @@
 package basepattern.suleymanov.behavioral.strategy;
 
-import basepattern.suleymanov.behavioral.state.Coding;
-import basepattern.suleymanov.behavioral.state.Reading;
-import basepattern.suleymanov.behavioral.state.Sleeping;
-import basepattern.suleymanov.behavioral.state.Training;
-
 public class DeveloperRunner {
     public static void main(String[] args) {
         Developer developer = new Developer();
+
         developer.setActivity(new Sleeping());
         developer.executeActivity();
 

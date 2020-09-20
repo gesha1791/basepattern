@@ -1,9 +1,7 @@
 package basepattern.suleymanov.behavioral.strategy;
 
-import basepattern.suleymanov.behavioral.state.Activity;
-
 public class Developer {
-    basepattern.suleymanov.behavioral.state.Activity activity;
+    Activity activity;
 
     public void setActivity(Activity activity) {
         this.activity = activity;
